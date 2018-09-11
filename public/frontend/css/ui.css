@@ -1,0 +1,1335 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**
+ * Table of Contents:
+ * 1.0 Margins & Transitions
+ * 2.0 Preloader
+ * 3.0 Buttons
+ * 4.0 Heading
+ * 5.0 Lists
+ * 6.0 Social Links
+ * 7.0 Contact Details
+ *     * 7.1 Map
+ * 8.0 Notification Styles
+ * 9.0 Horizontal Timeline
+ * -----------------------------------------------------------------------------
+ */
+
+/**
+ * 1.0 Margins & Transitions
+ * -----------------------------------------------------------------------------
+ */
+
+.artigo-topmargin-10, .artigo-topmargin-20, .artigo-topmargin-30, .artigo-topmargin-40, .artigo-topmargin-50, .artigo-topmargin-60, .artigo-topmargin-70, .artigo-topmargin-80, .artigo-topmargin-90, .artigo-topmargin-100, .artigo-topmargin-110, .artigo-topmargin-120 {
+	clear: both;
+	width: 100%;
+	display: inline-block;
+	float: left;
+}
+.artigo-topmargin-10 {
+	margin-top: 10px;
+}
+.artigo-topmargin-20 {
+	margin-top: 20px;
+}
+.artigo-topmargin-30 {
+	margin-top: 30px;
+}
+.artigo-topmargin-40 {
+	margin-top: 40px;
+}
+.artigo-topmargin-50 {
+	margin-top: 50px;
+}
+.artigo-topmargin-60 {
+	margin-top: 60px;
+}
+.artigo-topmargin-70 {
+	margin-top: 70px;
+}
+.artigo-topmargin-80 {
+	margin-top: 80px;
+}
+.artigo-topmargin-90 {
+	margin-top: 90px;
+}
+.artigo-topmargin-100 {
+	margin-top: 100px;
+}
+.artigo-topmargin-110 {
+	margin-top: 110px;
+}
+.artigo-topmargin-120 {
+	margin-top: 120px;
+}
+
+.artigo-column-divider {
+	margin: 50px 0;
+	padding: 0px;
+	clear: both;
+	float: left;
+	display: block;
+	width: 100%;
+	background: #000000;
+	height: 1px;
+}
+
+.cd-timeline-navigation a span, .artigo_twitter_widget ul.artigo-tweets-list li:before, .artigo-horizontal-timeline .events a:after {
+	-moz-transition:  .3s ease-in-out;
+	-webkit-transition:  .3s ease-in-out;
+	-o-transition:  .3s ease-in-out;
+	-ms-transition:  .3s ease-in-out;
+	transition:  .3s ease-in-out;
+}
+
+/**
+ * 3.0 Buttons
+ * -----------------------------------------------------------------------------
+ */
+
+.artigo-button {
+	outline:0;	
+	line-height: normal;
+	margin: 10px 0px;
+	padding: 14px 40px 12px;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	border-radius: 3px;
+	color: #ffffff;
+	display: inline-block;	
+	-webkit-transition:all 100ms linear; 
+	-moz-transition:all 100ms linear; 
+	-o-transition:all 100ms linear; 
+	-ms-transition:all 100ms linear; 
+	transition:all 300ms linear;
+}
+.artigo-button:hover {
+	color: #ffffff;
+}
+.artigo-button:before {
+	border-radius: 3px;
+}
+.artigo-button.stroke-style {
+	border: 1px solid #dddddd;
+	background: none;
+	color: #999999;
+}
+.artigo-button.stroke-style:hover {
+	color: #ffffff;
+}
+.artigo-button.stroke-style.light {
+	border-color: #ffffff;
+	background: none;
+	color: #ffffff;
+}
+.artigo-button.stroke-style.light:hover {
+	color: #ffffff;
+}
+
+
+.artigo-button.stroke-style.light.hvr-effect:before {
+	background: #ffffff;		
+}
+.artigo-button.stroke-style.light.hvr-effect:hover {
+	color: #000000;
+	border-color: #ffffff;
+}
+
+.artigo-button.hvr-effect:hover {
+	background: none !important;
+}
+
+.artigo-large-button {
+	background: #ffffff;
+	border:1px solid #ebebeb;
+	padding: 20px 25px;
+	width: 100%;
+	box-sizing: border-box;
+	display: inline-block;
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.artigo-large-button i {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 60px;
+	display: inline-block;
+	font-size: 36px;
+	color: #ffffff;
+	margin-right: 20px;
+}
+.artigo-large-button span {
+	display: inline-block;
+	position: relative;
+	top: 3px;
+}
+.artigo-large-button span strong {
+	font-size: 20px;
+}
+.artigo-large-button:hover {
+	color: #ffffff;
+}
+.artigo-large-button:hover i {
+	background: #ffffff;
+}
+.artigo-medium-button {
+	background: #ffffff;
+	border:1px solid #ebebeb;
+	padding: 20px 25px;
+	width: 100%;
+	box-sizing: border-box;
+	display: inline-block;
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 12px 25px 17px;
+	letter-spacing: 0.3px;
+	font-family: 'Raleway', sans-serif;
+}
+.artigo-medium-button i {
+	font-size: 24px;
+	margin-right: 10px;
+	display: inline-block;
+	position: relative;
+	top: 5px;
+}
+.artigo-medium-button:hover {
+	color: #ffffff;
+}
+.artigo-medium-button:hover i {
+	color: #ffffff;
+}
+
+
+/**
+ * 4.0 Heading
+ * -----------------------------------------------------------------------------
+ */
+.artigo-heading {
+	clear: both;
+	width: 100%;
+	float: left;
+}
+
+.artigo-heading h1, .artigo-heading h2, .artigo-heading h3, .artigo-heading h4, .artigo-heading h5, .artigo-heading h6 {
+	position: relative;
+	display: inline-block;
+	padding: 0px 40px;
+	margin-bottom: 40px;
+}
+.artigo-heading h1:before, .artigo-heading h1:after,.artigo-heading h2:before, .artigo-heading h2:after, .artigo-heading h3:before, .artigo-heading h3:after, .artigo-heading h4:before, .artigo-heading h4:after, .artigo-heading h5:before, .artigo-heading h5:after, .artigo-heading h6:before, .artigo-heading h6:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	height: 1px;
+	width: 30px;
+	background: #000000;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.artigo-heading h1:after, .artigo-heading h2:after, .artigo-heading h3:after, .artigo-heading h4:after, .artigo-heading h5:after, .artigo-heading h6:after {
+	right: 0;
+	left: auto;
+}
+
+
+/**
+ * 5.0 Lists
+ * -----------------------------------------------------------------------------
+ */
+
+.artigo-list {
+	width: 100%;
+	clear: both;
+	margin: 0;
+	padding:0;
+}
+
+.artigo-list.push {
+	margin-left: 20px;
+}
+
+.artigo-list li {
+	padding: 0 0 10px 20px;
+	display: block;
+	position: relative;
+	font-size: 14px;
+}
+
+.artigo-list li:before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-family: FontAwesome;
+}
+
+.artigo-list.small li:before {
+	font-size: 14px;
+}
+
+.artigo-list.medium li:before {
+	font-size: 18px;
+}
+.artigo-list.medium li {
+	padding-left: 30px;
+	font-size: 15px;
+}
+.artigo-list.large li {
+	padding-left: 35px;
+	font-size: 17px;
+}
+.artigo-list.large li:before {
+	font-size: 20px;
+	top: 1px;}
+
+.artigo-list.check-circle li:before {
+	content: "\f05d";
+}
+.artigo-list.arrow-circle li:before {
+	content: "\f18e";
+}
+.artigo-list.book li:before {
+	content: "\f02d";
+}
+.artigo-list.briefcase li:before {
+	content: "\f0b1";
+}
+.artigo-list.camera li:before {
+	content: "\f030";
+}
+.artigo-list.caret-square li:before {
+	content: "\f152";
+}
+.artigo-list.arrow-right li:before {
+	content: "\f054";
+}
+.artigo-list.clock li:before {
+	content: "\f017";
+}
+.artigo-list.close li:before {
+	content: "\f00d";
+}
+.artigo-list.comments li:before {
+	content: "\f0e6";
+}
+.artigo-list.folder li:before {
+	content: "\f07c";
+}
+.artigo-list.hand li:before {
+	content: "\f0a4";
+}
+.artigo-list.location-arrow li:before {
+	content: "\f124";
+}
+.artigo-list.pencil li:before {
+	content: "\f040";
+}
+.artigo-list.plus-square li:before {
+	content: "\f0fe";
+}
+.artigo-list.question-circle li:before {
+	content: "\f059";
+}
+.artigo-list.star li:before {
+	content: "\f005";
+}
+.artigo-list.user li:before {
+	content: "\f007";
+}
+.artigo-list.send li:before {
+	content: "\f1d8";
+}
+.artigo-list.check li:before {
+	content: "\f00c";
+}
+
+
+/**
+ * 6.0 Social Links
+ * -----------------------------------------------------------------------------
+ */
+
+.artigo-social-links li a[href$="/feed/"]:hover {
+	background-color: #F58026;
+	border-color: #F58026;
+}
+
+.artigo-social-links li a[href*="codepen.io"]:hover {
+	background-color: #000000;
+	border-color: #000000;	
+}
+
+.artigo-social-links li a[href*="digg.com"]:hover {
+	border-color: #1B5791;	
+	background-color: #1B5791;
+}
+
+.artigo-social-links li a[href*="dribbble.com"]:hover {
+	background-color: #E04C86;
+	border-color: #E04C86;
+}
+
+.artigo-social-links li a[href*="dropbox.com"]:hover {
+	background-color: #007EE5;
+	border-color: #007EE5;
+}
+
+.artigo-social-links li a[href*="facebook.com"]:hover {
+	border-color: #4d6bab;	
+	background-color: #4d6bab;
+}
+
+.artigo-social-links li a[href*="flickr.com"]:hover {
+	border-color: #007EE5;	
+	background-color: #007EE5;
+}
+
+.artigo-social-links li a[href*="foursquare.com"]:hover {
+	border-color: #F94877;	
+	background-color: #F94877;
+}
+
+.artigo-social-links li a[href*="plus.google.com"]:hover {
+	border-color: #d34836;	
+	background-color: #d34836;
+}
+
+.artigo-social-links li a[href*="github.com"]:hover {
+	border-color: #4382C5;	
+	background-color: #4382C5;
+}
+
+.artigo-social-links li a[href*="instagram.com"]:hover {
+	border-color: #5280A5;	
+	background-color: #5280A5;
+}
+
+.artigo-social-links li a[href*="linkedin.com"]:hover {
+	border-color: #248cc9;	
+	background-color: #248cc9;
+}
+
+.artigo-social-links li a[href*="pinterest.com"]:hover {
+	border-color: #CB2027;	
+	background-color: #CB2027;
+}
+
+.artigo-social-links li a[href*="reddit.com"]:hover {
+	border-color: #FF4006;	
+	background-color: #FF4006;
+}
+
+.artigo-social-links li a[href*="stumbleupon.com"]:hover {
+	border-color: #5AD350;	
+	background-color: #5AD350;
+}
+
+.artigo-social-links li a[href*="tumblr.com"]:hover {
+	border-color: #385875;	
+	background-color: #385875;
+}
+
+.artigo-social-links li a[href*="twitter.com"]:hover {
+	border-color: #4ec6f8;	
+	background-color: #4ec6f8;
+}
+
+.artigo-social-links li a[href*="vimeo.com"]:hover {
+	border-color: #1FB9EB;	
+	background-color: #1FB9EB;
+}
+
+.artigo-social-links li a[href*="wordpress.com"]:hover,
+.artigo-social-links li a[href*="wordpress.org"]:hover {
+	border-color: #1C8ABD;	
+	background-color: #1C8ABD;
+}
+
+.artigo-social-links li a[href*="youtube.com"]:hover {
+	border-color: #CF3427;	
+	background-color: #CF3427;
+}
+
+.artigo-social-links li a[href*="mailto:"]:hover {
+	border-color: #da4a38;	
+	background-color: #da4a38;
+	
+}
+
+.artigo-social-links li a[href*="spotify.com"]:hover {
+	border-color: #7DC211;	
+	background-color: #7DC211;
+}
+
+.artigo-social-links li a[href*="twitch.tv"]:hover {
+	border-color: #603C9A;	
+	background-color: #603C9A;
+}
+
+.artigo-social-links li a[href*="delicious.com"]:hover {
+	border-color: #084DCC;	
+	background-color: #084DCC;
+}
+
+/* 14.1 Social Links */
+
+.artigo-social-links {
+	margin: 0;
+}
+.artigo-social-links li {
+	float: left;
+	display: inline;
+}
+.artigo-social-links li a {
+	border: 1px solid #000000;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	display: inline-block;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 30px;
+	color: #000000;
+	position: relative;
+}
+.artigo-social-links li a:hover {
+	color: #ffffff;
+}
+
+
+.artigo-social-links li a:after {
+	top: -2px;
+	left: -2px;
+	padding: 2px;
+	z-index: -1;
+	background: #000000;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.2s, opacity 0.3s;
+	transition: transform 0.2s, opacity 0.3s;
+}
+.artigo-social-links li a:after {
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+	opacity: 0;
+}
+
+.artigo-social-links li a:hover:after {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+/**
+ * 7.0 Contact Details
+ * -----------------------------------------------------------------------------
+ */
+.artigo-contact {
+	float: left;
+	clear: both;
+	width: 100%;
+	position: relative;
+}
+.artigo-contact address, .artigo-contact abbr {
+	padding-left: 30px;
+	font-style: normal;
+	clear: both;
+	width: 100%;
+	float: left;
+	margin: 10px 0 0;	
+}
+.artigo-contact address:before, .artigo-contact abbr:before {
+	content: "\f041";
+	position: absolute;
+	left: 0;
+	font-family: FontAwesome;
+	font-size: 16px;
+}
+.artigo-contact abbr[title="Phone Number"]:before {
+	content: "\f095";
+}
+.artigo-contact abbr[title="Mail Address"]:before {
+	content: "\f0e0";
+}
+.artigo-contact abbr[title="Working Time"]:before {
+	content: "\f017";
+}
+.artigo-contact abbr[title="Fax Number"]:before {
+	content: "\f017";
+}
+.artigo-contact abbr a {
+	color: #666666;
+}
+
+.artigo-contact-form {
+	width: 100%;
+	margin: -15px auto 0;
+	position: relative;
+}
+.artigo-contact-form.fw, .artigo-col-8 .artigo-contact-form {
+	width: 100%;
+}
+.artigo-contact-form input[type="submit"] {
+	margin-bottom: 0px;
+	float: left;
+	font-size: 14px;
+}
+
+.artigo-form-control.error {
+	border-color: #e42c3e;
+}
+.artigo-form-process {
+	background: #ffffff url('/../images/preloader.gif') center center no-repeat;
+	display: block;
+	height: 105%;
+	width: 100%;
+}
+.artigo-form-process {
+	background-color: rgba(255, 255, 255, 0.7);
+	display: none;
+	position: absolute;
+	z-index: 3;
+}
+.artigo-contact-form-result { 
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+}
+
+.artigo-contact-with-large-icon {
+	position: relative;
+	padding: 0 0 0 100px;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+.artigo-contact-with-large-icon .artigo-contact-icon-holder {
+	text-align: center;
+	color: #000000;
+	font-size: 30px;
+	line-height: 70px;
+	width: 70px;
+	height: 70px;
+	border-radius: 70px;
+	text-transform: uppercase;
+	margin: 0 6px 10px 0;
+	padding: 3px 9px 2px;
+	display: inline-block;
+	letter-spacing: 0.6px;
+	position: absolute;
+	left: 0;
+}
+.artigo-contact-with-large-icon:hover .artigo-contact-icon-holder i {
+	color: #ffffff;
+}
+.artigo-contact-with-large-icon .artigo-contact-icon-holder:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	border: 1px solid #000000;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	border-radius: 70px;
+}
+.artigo-contact-with-large-icon:hover .artigo-contact-icon-holder:before {
+	opacity: 0;
+	-webkit-transform: scale(1.2,1.2);
+	transform: scale(1.2,1.2);
+}
+.artigo-contact-with-large-icon .artigo-contact-icon-holder:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	opacity: 0;
+	background-color: #000000;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	-webkit-transform: scale(0.5,0.5);
+	transform: scale(0.5,0.5);
+	border-radius: 70px;
+}
+.artigo-contact-with-large-icon:hover .artigo-contact-icon-holder:after {
+	opacity: 1 ;
+	-webkit-transform: scale(1,1);
+	transform: scale(1,1);
+}
+
+
+
+.artigo-contact-with-large-icon .artigo-contact-text-holder h6 {
+	text-transform: uppercase;
+	font-size: 16px;
+	position: relative;
+	margin-bottom: 15px;
+	letter-spacing: 0.5px;
+}
+.artigo-contact-text-holder {
+	display: inline-block;
+}
+.artigo-contact-with-large-icon .artigo-contact-text-holder p, .artigo-contact-with-large-icon .artigo-contact-text-holder a {
+	color: #777777;
+	font-size: 14px;
+	margin: 0;
+	width: 100%;
+	clear: both;
+	display: inline-block;
+}
+.artigo-contact-with-large-icon span {
+	font-size: 11px;
+	color: #999999;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+/**
+ * 7.1 Map
+ * -----------------------------------------------------------------------------
+ */
+.artigo-map {
+	width: 100%;
+	height: 500px;
+}
+.artigo-map img {
+	max-width: none;
+}
+.artigo-map-holder {
+	clear: both;
+	width: 100%;
+}
+.gmap_marker {
+	margin: 10px 0 0;
+}
+.gmap_marker h5 {
+	margin-bottom: 20px;
+}
+
+.artigo-google-map-toggle {
+	text-align: center;
+}
+.artigo-google-map-toggle h4 {
+	font-weight: 600;
+	width: 100%;
+	margin: 0 0 5px;
+	display: inline-block;
+}
+.artigo-google-map-toggle h4 a {
+	display: inline-block;
+	width: 100%;
+}
+.light-text .artigo-google-map-toggle h4 a {
+	color: #ffffff;
+}
+.light-text .artigo-google-map-toggle h4 a:hover {
+	color: rgba(0, 0, 0, 0.3);
+}
+.artigo-google-map-toggle h4 span {
+	margin-right: 10px;
+	font-size: 30px;
+	position: relative;
+	top: 5px;
+}
+
+/**
+ * 8.0 Notification Styles
+ * -----------------------------------------------------------------------------
+ */
+.artigo-contact-form-result {
+	margin-bottom: 20px;
+}
+.artigo-success-msg, .artigo-info-msg, .artigo-warning-msg, .artigo-error-msg { 
+	display: inline-block;
+	padding: 15px 30px 15px 45px;
+	box-sizing: border-box;
+	color: #ffffff;
+	position: relative;
+	width: 100%;
+	clear: both;
+}
+
+.artigo-success-msg { 
+	background: #2ed164;
+}
+.artigo-info-msg { 
+	background: #2d8fd0;
+}
+.artigo-warning-msg { 
+	background: #efb44c;
+}
+.artigo-error-msg { 
+	background: #ef7270;
+}
+
+.artigo-success-msg:before, .artigo-info-msg:before, .artigo-warning-msg:before, .artigo-error-msg:before {
+	position: absolute;
+	left: 20px;
+	top: 16px;
+	font-size: 14px;
+	font-family: FontAwesome;	
+	color: #ffffff;
+}
+.artigo-success-msg:before {
+	content: "\f00c";	
+}
+.artigo-info-msg:before {
+	content: "\f129";	
+	left: 23px;
+}
+.artigo-warning-msg:before {
+	content: "\f071";	
+}
+.artigo-error-msg:before {
+	content: "\f00d";	
+}
+
+/**
+ * 9.0 Horizontal Timeline
+ * -----------------------------------------------------------------------------
+ */
+
+.artigo-horizontal-timeline {
+	opacity: 0;
+	margin: 0 auto;
+	clear: both;
+	-webkit-transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+}
+.artigo-horizontal-timeline::before {
+	/* never visible - this is used in jQuery to check the current MQ */
+	content: 'mobile';
+	display: none;
+}
+.artigo-horizontal-timeline.loaded {
+	/* show the timeline after events position has been set (using JavaScript) */
+	opacity: 1;
+}
+.artigo-horizontal-timeline .timeline {
+	position: relative;
+	height: 100px;
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.artigo-horizontal-timeline .events-wrapper {
+	position: relative;
+	height: 100%;
+	margin: 0 40px;
+	overflow: hidden;
+}
+.artigo-horizontal-timeline .events-wrapper::after, .artigo-horizontal-timeline .events-wrapper::before {
+	/* these are used to create a shadow effect at the sides of the timeline */
+	content: '';
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 2px;
+	width: 150px;
+}
+.artigo-horizontal-timeline .events-wrapper::before {
+	left: 0;
+	background-image: -webkit-linear-gradient( left , #ffffff, rgba(255, 255, 255, 0));
+	background-image: linear-gradient(to right, #ffffff, rgba(255, 255, 255, 0));
+}
+.artigo-horizontal-timeline .events-wrapper::after {
+	right: 0;
+	background-image: -webkit-linear-gradient( right , #ffffff, rgba(255, 255, 255, 0));
+	background-image: linear-gradient(to left, #ffffff, rgba(255, 255, 255, 0));
+}
+.artigo-horizontal-timeline .events {
+	/* this is the grey line/timeline */
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 49px;
+	height: 1px;
+	/* width will be set using JavaScript */
+	background: #dfdfdf;
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+.artigo-horizontal-timeline .filling-line {
+	/* this is used to create the green line filling the timeline */
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	-webkit-transform: scaleX(0);
+	-moz-transform: scaleX(0);
+	-ms-transform: scaleX(0);
+	-o-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transform-origin: left center;
+	-moz-transform-origin: left center;
+	-ms-transform-origin: left center;
+	-o-transform-origin: left center;
+	transform-origin: left center;
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+}
+.artigo-horizontal-timeline .events ol li {
+	display: inline;
+}
+.artigo-horizontal-timeline .events a {
+	position: absolute;
+	bottom: 0;
+	z-index: 2;
+	text-align: center;
+	font-size: 18px;
+	padding-bottom: 25px;
+	color: rgba(0, 0, 0, 0.4);
+	/* fix bug on Safari - text flickering while timeline translates */
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+}
+.artigo-horizontal-timeline .events a::after {
+	/* this is used to create the event spot */
+	content: '';
+	position: absolute;
+	left: 50%;
+	right: auto;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	bottom: -7px;
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	border: 1px solid #dfdfdf;
+	background-color: #ffffff;
+	-webkit-transition: background-color 0.3s, border-color 0.3s;
+	-moz-transition: background-color 0.3s, border-color 0.3s;
+	transition: background-color 0.3s, border-color 0.3s;
+}
+
+.artigo-horizontal-timeline .events a.selected {
+	pointer-events: none;
+}
+.artigo-horizontal-timeline .events a.selected:after {
+	width: 20px;
+	height: 20px;
+	bottom: -9px;
+}
+
+@media only screen and (min-width: 1100px) {
+	.artigo-horizontal-timeline::before {
+		/* never visible - this is used in jQuery to check the current MQ */
+		content: 'desktop';
+	}
+}
+
+.cd-timeline-navigation li {
+	display: block;
+}
+.cd-timeline-navigation a {
+	/* these are the left/right arrows to navigate the timeline */
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	bottom: auto;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	height: 34px;
+	width: 34px;
+	border-radius: 50%;
+	border: 1px solid rgba(0, 0, 0, 0.2);  
+	text-align: center;  
+	/* replace text with an icon */
+	overflow: hidden;
+	color: transparent;
+	white-space: nowrap;
+	-webkit-transition: border-color 0.3s;
+	-moz-transition: border-color 0.3s;
+	transition: border-color 0.3s;
+}
+.cd-timeline-navigation a span {
+	color: rgba(0, 0, 0, 0.3);
+	font-size: 14px;
+	line-height: 34px;
+}
+.cd-timeline-navigation a:hover span {
+	color: #000000;
+}
+.cd-timeline-navigation a.prev {
+	left: 0;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.cd-timeline-navigation a.next {
+	right: 0;
+}
+
+.cd-timeline-navigation a.inactive {
+	cursor: not-allowed;
+}
+.no-touch .cd-timeline-navigation a.inactive:hover {
+	border-color: #dfdfdf;
+}
+
+.artigo-horizontal-timeline .events-content {
+	position: relative;
+	width: 100%;
+	margin: 20px 0 0;
+	padding: 0;
+	overflow: hidden;
+	-webkit-transition: height 0.4s;
+	-moz-transition: height 0.4s;
+	transition: height 0.4s;
+}
+.artigo-horizontal-timeline .events-content ol {
+	margin: 0;
+	padding: 0;
+}
+.artigo-horizontal-timeline .events-content li {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	left: 0;
+	top: 0;
+	display: block;
+	-webkit-transform: translateX(-100%);
+	-moz-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+	-o-transform: translateX(-100%);
+	transform: translateX(-100%);
+	padding: 0;
+	opacity: 0;
+	-webkit-animation-duration: 0.4s;
+	-moz-animation-duration: 0.4s;
+	animation-duration: 0.4s;
+	-webkit-animation-timing-function: ease-in-out;
+	-moz-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+}
+.artigo-horizontal-timeline .events-content li.selected {
+	/* visible event content */
+	position: relative;
+	z-index: 2;
+	opacity: 1;
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-ms-transform: translateX(0);
+	-o-transform: translateX(0);
+	transform: translateX(0);
+}
+.artigo-horizontal-timeline .events-content li.enter-right, .artigo-horizontal-timeline .events-content li.leave-right {
+	-webkit-animation-name: cd-enter-right;
+	-moz-animation-name: cd-enter-right;
+	animation-name: cd-enter-right;
+}
+.artigo-horizontal-timeline .events-content li.enter-left, .artigo-horizontal-timeline .events-content li.leave-left {
+	-webkit-animation-name: cd-enter-left;
+	-moz-animation-name: cd-enter-left;
+	animation-name: cd-enter-left;
+}
+.artigo-horizontal-timeline .events-content li.leave-right, .artigo-horizontal-timeline .events-content li.leave-left {
+	-webkit-animation-direction: reverse;
+	-moz-animation-direction: reverse;
+	animation-direction: reverse;
+}
+
+@-webkit-keyframes cd-enter-right {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(100%);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0%);
+	}
+	}
+	@-moz-keyframes cd-enter-right {
+	0% {
+		opacity: 0;
+		-moz-transform: translateX(100%);
+	}
+	100% {
+		opacity: 1;
+		-moz-transform: translateX(0%);
+	}
+}
+@keyframes cd-enter-right {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(100%);
+		-moz-transform: translateX(100%);
+		-ms-transform: translateX(100%);
+		-o-transform: translateX(100%);
+		transform: translateX(100%);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0%);
+		-moz-transform: translateX(0%);
+		-ms-transform: translateX(0%);
+		-o-transform: translateX(0%);
+		transform: translateX(0%);
+	}
+}
+@-webkit-keyframes cd-enter-left {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(-100%);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0%);
+	}
+}
+@-moz-keyframes cd-enter-left {
+	0% {
+		opacity: 0;
+		-moz-transform: translateX(-100%);
+	}
+	100% {
+		opacity: 1;
+		-moz-transform: translateX(0%);
+	}
+}
+@keyframes cd-enter-left {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(-100%);
+		-moz-transform: translateX(-100%);
+		-ms-transform: translateX(-100%);
+		-o-transform: translateX(-100%);
+		transform: translateX(-100%);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0%);
+		-moz-transform: translateX(0%);
+		-ms-transform: translateX(0%);
+		-o-transform: translateX(0%);
+		transform: translateX(0%);
+	}
+}
+
+.artigo-horizontal-timeline .events a.selected, .artigo-horizontal-timeline .events a:hover, .no-touch .cd-timeline-navigation a:hover span { 
+	color: #000000; 
+}
+.artigo-horizontal-timeline .filling-line, .artigo-horizontal-timeline .events a.selected:after, .no-touch .artigo-horizontal-timeline .events a:hover:after { 
+	background-color: #000000; 
+}
+.artigo-horizontal-timeline .events a.selected:after, .artigo-horizontal-timeline .events a.older-event:after, .no-touch .artigo-horizontal-timeline .events a:hover:after, .no-touch .cd-timeline-navigation a:hover {  
+	border-color: rgba(0, 0, 0, 0.4);
+}
+.cd-timeline-navigation a:hover {
+	border-color: #000000;
+}
+.cd-timeline-navigation a.inactive, .cd-timeline-navigation a.inactive span {
+	border-color: rgba(0, 0, 0, 0.1);
+	color: rgba(0, 0, 0, 0.1);
+}
+
+.light-text .artigo-horizontal-timeline .events a {
+	color: rgba(255, 255, 255, 0.5);
+}
+.light-text .artigo-horizontal-timeline .events {
+	background: rgba(255, 255, 255, 0.3);
+}
+.light-text .artigo-horizontal-timeline .events a:after {
+	background-color: #000000;
+	border-color: rgba(255, 255, 255, 0.5);
+}
+.light-text .artigo-horizontal-timeline .events-wrapper::before {
+	left: 0;
+	background-image: -webkit-linear-gradient( left , #000000, rgba(0, 0, 0, 0));
+	background-image: linear-gradient(to right, #000000, rgba(0, 0, 0, 0));
+}
+.light-text .artigo-horizontal-timeline .events-wrapper:after {
+	right: 0;
+	background-image: -webkit-linear-gradient( right , #000000, rgba(0, 0, 0, 0));
+	background-image: linear-gradient(to left, #000000, rgba(0, 0, 0, 0));
+}
+
+.light-text .cd-timeline-navigation a {
+	border-color: rgba(255, 255, 255, 0.7);
+}
+.light-text .cd-timeline-navigation a.inactive {
+	border-color: rgba(255, 255, 255, 0.2);
+}
+
+.light-text .cd-timeline-navigation a span {
+	color: rgba(255, 255, 255, 0.7);
+}
+.no-touch .light-text .cd-timeline-navigation a.inactive:hover {
+	border-color: rgba(255, 255, 255, 0.2);
+}
+.no-touch .light-text .cd-timeline-navigation a.inactive span, .no-touch .light-text .cd-timeline-navigation a.inactive:hover span, .light-text .cd-timeline-navigation a.inactive span, .light-text .cd-timeline-navigation a.inactive:hover span {
+	color: rgba(255, 255, 255, 0.3);
+}
+.light-text .cd-timeline-navigation a.inactive, .light-text .cd-timeline-navigation a.inactive:hover {
+	border-color: rgba(255, 255, 255, 0.2);
+}
+
+.light-text .artigo-horizontal-timeline .events a.selected, .light-text .artigo-horizontal-timeline .events a:hover, .light-text .no-touch .cd-timeline-navigation a:hover span { 
+	color: #ffffff; 
+}
+.light-text .artigo-horizontal-timeline .filling-line, .light-text .artigo-horizontal-timeline .events a.selected:after, .light-text .no-touch .artigo-horizontal-timeline .events a:hover:after { 
+	background-color: #ffffff; 
+}
+
+.light-text .cd-timeline-navigation a:hover {
+	border-color: #ffffff;
+}
+
+.light-text .artigo-horizontal-timeline .events a.selected:after, .light-text .no-touch .artigo-horizontal-timeline .events a:hover:after, .no-touch .cd-timeline-navigation a:hover {  
+	border-color: rgba(255, 255, 255, 0.4);
+}
+.light-text .artigo-horizontal-timeline .events a.older-event:after {
+	border-color: #ffffff;
+}
+
+
+.light-text .events-content .artigo-blog-item .entry-item-details-wrap {
+	background: #ffffff;
+}
+.light-text .events-content .artigo-blog-item .entry-content p {
+	color: #666666;
+}
+
+/**
+ * 10.0 Category Image Caption
+ * -----------------------------------------------------------------------------
+ */
+
+figure.artigo-cat-img-caption {
+	position: relative;
+	float: left;
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+figure.artigo-cat-img-caption * {
+	-webkit-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+}
+
+figure.artigo-cat-img-caption:before {
+	content: "";
+	position: absolute;	
+	left: 10px;
+	top: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	background: rgba(0, 0, 0, 0.6);
+	height:-webkit-calc(100% - 20px); height:-moz-calc(100% - 20px); height:calc(100% - 20px);
+	width:-webkit-calc(100% - 20px); width:-moz-calc(100% - 20px); width:calc(100% - 20px);
+	z-index: 1;
+	-webkit-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;  
+}
+figure.artigo-cat-img-caption:hover:before {
+	background: rgba(0, 0, 0, 0.4);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+figure.artigo-cat-img-caption img {
+	max-width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+figure.artigo-cat-img-caption:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+figure.artigo-cat-img-caption figcaption {
+	position: absolute;
+	top: 50%;
+	left: 30px;
+	right: 30px;
+	-webkit-transform: rotate(0deg) translateY(-50%);
+	transform: rotate(0deg) translateY(-50%);
+	-webkit-transform-origin: center 0;
+	transform-origin: center 0;
+	z-index: 9;
+}
+
+figure.artigo-cat-img-caption figcaption h2 {
+	top: 50%;
+	text-transform: uppercase;
+	padding: 10px 0;
+	margin: 0;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+figure.artigo-cat-img-caption figcaption h2 a {
+	color: #ffffff;
+}
+
+figure.artigo-cat-img-caption figcaption:before,
+figure.artigo-cat-img-caption figcaption:after {
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 70%;
+	height: 1px;
+	position: absolute;
+	content: "";
+	display: block;
+	-webkit-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;  
+}
+
+figure.artigo-cat-img-caption figcaption:before {
+	left: 0;
+	top: 0;
+}
+
+figure.artigo-cat-img-caption figcaption:after {
+	bottom: 0;
+	right: 0;
+}
+
+figure.artigo-cat-img-caption:hover figcaption {
+	-webkit-transform: rotate(-35deg) translateY(-50%);
+	transform: rotate(-35deg) translateY(-50%);
+}
+
+figure.artigo-cat-img-caption:hover figcaption:before,
+figure.artigo-cat-img-caption:hover figcaption:after {
+	width: 120%;
+}
