@@ -59,7 +59,7 @@
 				@if(count($categories) > 0)
 					@foreach($categories as $category)
 						<li>
-							<a href="{{ route('category', [$category->slug]) }}" title=""> {{ $category->title }} </a> <span> [{{ $category->posts_count }}] </span>
+							<a href="{{ route('category.show', [$category->slug]) }}" title=""> {{ $category->title }} </a> <span> [{{ $category->posts_count }}] </span>
 						</li>
 					@endforeach	
 				@endif

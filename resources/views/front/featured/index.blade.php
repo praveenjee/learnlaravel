@@ -19,7 +19,7 @@
                             <header class="entry-header">
                                 <p class="entry-cat-links"> 
                                     @foreach($post->categories as $cat)
-                                    <a href="{{ route('category', [$cat->slug]) }}"> {{$cat->title}} </a>
+                                    <a href="{{ route('category.show', [$cat->slug]) }}"> {{$cat->title}} </a>
                                     @endforeach
                                 </p>
                                 <h4> <a href="{{ route('post', [$post->seo_url]) }}" title=""> {{ $post->title }} </a> </h4>

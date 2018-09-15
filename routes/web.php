@@ -24,7 +24,8 @@ Route::namespace('Front')->group(function () {
 	Route::get('contact', 'ContactController@create')->name('contact.create');
 	Route::post('contact', 'ContactController@store')->name('contact.store'); 
 
-	Route::get('category/{catslug?}', 'CategoryController@index')->name('category');
+	Route::get('category', 'CategoryController@index')->name('category.index');
+	Route::get('category/{catslug?}', 'CategoryController@show')->name('category.show');
 	Route::get('post/{slug?}', 'PostController@index')->name('post'); 
 	
 	Route::post('post/{slug}/comments', 'CommentsController@store')->name('post.comments.store');  

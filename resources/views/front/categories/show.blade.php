@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.category')
 
 @section('content')
 
@@ -80,8 +80,9 @@
             <a href="#" class="next page-numbers"> <i class="ti-arrow-right"> </i> </a>
         </div>
     </nav>-->  
-
+    @if(count($posts) > config('app.nbrPages.front.posts'))
     {{ $posts->render('pagination.default') }}
+    @endif
     
 </div>
 

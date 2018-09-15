@@ -26,7 +26,7 @@
 					<p class="entry-cat-links"> 
 						@if(count($post->allcategories) > 0)
 							@foreach($post->allcategories as $category)
-								<a href="{{ route('category', [$category->slug ]) }}"> {{ $category->title }} </a>
+								<a href="{{ route('category.show', [$category->slug ]) }}"> {{ $category->title }} </a>
 							@endforeach
 						@endif						
 					</p>
@@ -183,7 +183,7 @@
 						<footer class="comment-meta">
 							<div class="comment-author"> 
 								<!--<img class="avatar" src="{{ $comment->photo ? '/../uploads/users/'.$comment->photo : '/../images/blog/blog-author1.jpg' }}" alt="">--> 
-								<img class="avatar" src="{{Auth::user()->getGravatarAttribute()}}" alt="Author">
+								<img class="avatar" src="{{ Auth::check() ? Auth::user()->getGravatarAttribute() : '/../images/blog/blog-author1.jpg' }}" alt="Author">
 								<h6> <a class="url" href="#"> {{ $comment->author }} </a> </h6>
 							</div>
 							<div class="comment-metadata">
