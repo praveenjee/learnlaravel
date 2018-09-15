@@ -40,7 +40,7 @@
 			</div>
 		</li>
 		
-		<li class="{{ (Route::current()->getName() == 'category') ? 'current_page_item':'' }}"> <a href="{{ route('category.index')}}" title=""> Category </a> 
+		<li class="{{ (Route::current()->getName() == 'category') ? 'current_page_item':'' }}"> <a href="{{ route('category.index')}}" title=""> Category</a> 
 			<ul class="artigo-sub-menu">
 				@foreach($categories as $cat)
 					<li> <a href="{{ route('category.show', [$cat->slug ]) }}" title="">{{ $cat->title }}</a> </li>
